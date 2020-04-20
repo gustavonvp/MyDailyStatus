@@ -16,7 +16,7 @@ Outras dependências do projeto:
 tailwindcss,
 Axios,
 React {useEffect,UseState},
-next/link
+next/link,
 auth0/nextjs-auth0,
 firebase-admin,
 geofirestore
