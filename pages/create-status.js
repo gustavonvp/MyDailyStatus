@@ -43,7 +43,7 @@ const CreateStatus = () => {
     return (
     <div>
 
-        <h1>Create Status</h1>
+        <h1>Crie seu Status</h1>
 
         <label className="block">
             <input type="radio" name="status" value="bem" onClick={onStatusChange} /> Estou bem e sem sintomas.
@@ -57,9 +57,10 @@ const CreateStatus = () => {
             <input type="radio" name="status" value="covid"  onClick={onStatusChange} /> Estou com sintomas da COVID.
         </label>
         
-        Sua posição atual: {JSON.stringify(dados)}
-
+        Seu status e posição atual: <br></br> {JSON.stringify(dados)}
+        <br></br>
         <button onClick={getMyLocation}> Pegar minha localização </button>
+        <br></br>
         <button onClick={save}> Salvar meu status </button>
     </div>
     
