@@ -9,8 +9,7 @@ MyDailyStatus is a website, made with NextJs, where you can post your symptoms r
 MyDailyStatus es un sitio web, creado con NextJs, donde puede publicar sus síntomas relacionados con la gripe, el resfriado, sin problemas o COVID. Es posible verificar la distancia entre las publicaciones para enumerar las áreas donde cada persona ha publicado, para verificar las áreas en riesgo.
 
 
-Para rodar a aplicação:
-Instalar os módulos do react-dom com o comando: npm install next react react-dom
+Para rodar a aplicação: Executar o comando npm install next react react-dom  e
 Executar o comando: npm run dev
 
 Outras dependências do projeto:
