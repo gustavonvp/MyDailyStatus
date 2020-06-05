@@ -1,4 +1,4 @@
-https://github.com/gustavonvp/MyDailyStatus/issues/1#issue-631267355
+![logo](https://user-images.githubusercontent.com/54008916/83830731-3c108700-a6bc-11ea-976a-5da38c2df780.png)
 
 # MyDailyStatus
 
