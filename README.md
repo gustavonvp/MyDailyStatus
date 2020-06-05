@@ -32,7 +32,8 @@ Executar o comando: npm run dev
 [geofirestore](https://geofirestore.com/)
 <br></br>
 
-<blockquote> É possível a instalação das dependências pelo gerenciador de pacotes <b>NPM</b> ou <b>YARN></b> </blockquote>
+<blockquote> É possível a instalação das dependências pelo gerenciador de pacotes <b>NPM</b> ou <b>YARN</b> </blockquote>
   
 
 - [X] Existem 10 tipos de pessoas no mundo. Aquelas que entendem binário, e aquelas que não.
+
