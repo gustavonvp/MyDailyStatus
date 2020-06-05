@@ -18,13 +18,19 @@ Executar o comando: npm run dev
 <h2>Outras dependências do projeto:</h2>
 
 [tailwindcss](https://tailwindcss.com/)
+<br></br>
 [Axios](https://github.com/axios/axios)
+<br></br>
 [React](https://pt-br.reactjs.org/)
+<br></br>
 [next](https://nextjs.org/)
+<br></br>
 [auth0/nextjs-auth0](https://auth0.com/)
+<br></br>
 [firebase-admin](https://firebase.google.com/?hl=pt-br)
+<br></br>
 [geofirestore](https://geofirestore.com/)
-
+<br></br>
 
 <blockquote> É possível a instalação das dependências pelo gerenciador de pacotes <b>NPM</b> ou <b>YARN></b> </blockquote>
   
