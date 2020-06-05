@@ -14,19 +14,19 @@ MyDailyStatus es un sitio web, creado con NextJs, donde puede publicar sus sínt
 Para rodar a aplicação: Executar o comando npm install next react react-dom  e
 Executar o comando: npm run dev
 
-#Markdown
+
 <h2>Outras dependências do projeto:</h2>
 
-tailwindcss (https://tailwindcss.com/)
-Axios (https://github.com/axios/axios)
-React (https://pt-br.reactjs.org/)
-next (https://nextjs.org/)
-auth0/nextjs-auth0,
-firebase-admin (https://firebase.google.com/?hl=pt-br)
-geofirestore (https://geofirestore.com/)
+[tailwindcss] (https://tailwindcss.com/)
+[Axios] (https://github.com/axios/axios)
+[React] (https://pt-br.reactjs.org/)
+[next] (https://nextjs.org/)
+[auth0/nextjs-auth0] (https://auth0.com/)
+[firebase-admin] (https://firebase.google.com/?hl=pt-br)
+[geofirestore] (https://geofirestore.com/)
 
 
-<blockquote> É possível a instalação das dependências pelo gerenciador de pacotes <font color = red><b>NPM</b></font> ou <font color = red><b>YARN>/b></font>  </blockquote>
+<blockquote> É possível a instalação das dependências pelo gerenciador de pacotes <font color = red><b>NPM</b> ou <b>YARN></b></font>  </blockquote>
   
 #Markdown
 - [X] Existem 10 tipos de pessoas no mundo. Aquelas que entendem binário, e aquelas que não.
