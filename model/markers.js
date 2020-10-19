@@ -35,8 +35,8 @@ export const checkExists = async user => {
           long: doc.data().coordinates.longitude
         },
         distance: distance(
-          checkin.coordinates.latitude, // -22.20292, //
-          checkin.coordinates.longitude, // -45.94367, //
+          checkin.coordinates.latitude, 
+          checkin.coordinates.longitude, 
           doc.data().coordinates.latitude,
           doc.data().coordinates.longitude
         ).toFixed(2)
