@@ -333,10 +333,10 @@ var e,t=(e=__webpack_require__(/*! querystring */ "./node_modules/querystring-es
 
 /***/ }),
 
-/***/ "./node_modules/next/dist/build/webpack/loaders/next-client-pages-loader.js?page=%2Fapp&absolutePagePath=C%3A%5CMyDailyStatus%5Cpages%5Capp.js!./":
-/*!*****************************************************************************************************************************************************!*\
-  !*** ./node_modules/next/dist/build/webpack/loaders/next-client-pages-loader.js?page=%2Fapp&absolutePagePath=C%3A%5CMyDailyStatus%5Cpages%5Capp.js ***!
-  \*****************************************************************************************************************************************************/
+/***/ "./node_modules/next/dist/build/webpack/loaders/next-client-pages-loader.js?page=%2Fapp&absolutePagePath=C%3A%5CUsers%5CGustavo%5CDocuments%5CGitHub%5CMyDailyStatus%5Cpages%5Capp.js!./":
+/*!********************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/next/dist/build/webpack/loaders/next-client-pages-loader.js?page=%2Fapp&absolutePagePath=C%3A%5CUsers%5CGustavo%5CDocuments%5CGitHub%5CMyDailyStatus%5Cpages%5Capp.js ***!
+  \********************************************************************************************************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -2233,12 +2233,12 @@ if (false) {} else {
 
 /***/ "./node_modules/react/index.js":
 /*!*******************************************************************************************!*\
-  !*** delegated ./node_modules/react/index.js from dll-reference dll_c2e10d183b950a67d9e7 ***!
+  !*** delegated ./node_modules/react/index.js from dll-reference dll_2adc2403d89adc16ead0 ***!
   \*******************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = (__webpack_require__(/*! dll-reference dll_c2e10d183b950a67d9e7 */ "dll-reference dll_c2e10d183b950a67d9e7"))("./node_modules/react/index.js");
+module.exports = (__webpack_require__(/*! dll-reference dll_2adc2403d89adc16ead0 */ "dll-reference dll_2adc2403d89adc16ead0"))("./node_modules/react/index.js");
 
 /***/ }),
 
@@ -2997,7 +2997,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var next_router__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! next/router */ "./node_modules/next/dist/client/router.js");
 /* harmony import */ var next_router__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(next_router__WEBPACK_IMPORTED_MODULE_1__);
 var _this = undefined,
-    _jsxFileName = "C:\\MyDailyStatus\\pages\\app.js";
+    _jsxFileName = "C:\\Users\\Gustavo\\Documents\\GitHub\\MyDailyStatus\\pages\\app.js";
 
 var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
 
@@ -3083,28 +3083,28 @@ var __N_SSP = true;
 
 /***/ }),
 
-/***/ 2:
-/*!*********************************************************************************************************!*\
-  !*** multi next-client-pages-loader?page=%2Fapp&absolutePagePath=C%3A%5CMyDailyStatus%5Cpages%5Capp.js ***!
-  \*********************************************************************************************************/
+/***/ 6:
+/*!************************************************************************************************************************************************!*\
+  !*** multi next-client-pages-loader?page=%2Fapp&absolutePagePath=C%3A%5CUsers%5CGustavo%5CDocuments%5CGitHub%5CMyDailyStatus%5Cpages%5Capp.js ***!
+  \************************************************************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__(/*! next-client-pages-loader?page=%2Fapp&absolutePagePath=C%3A%5CMyDailyStatus%5Cpages%5Capp.js! */"./node_modules/next/dist/build/webpack/loaders/next-client-pages-loader.js?page=%2Fapp&absolutePagePath=C%3A%5CMyDailyStatus%5Cpages%5Capp.js!./");
+module.exports = __webpack_require__(/*! next-client-pages-loader?page=%2Fapp&absolutePagePath=C%3A%5CUsers%5CGustavo%5CDocuments%5CGitHub%5CMyDailyStatus%5Cpages%5Capp.js! */"./node_modules/next/dist/build/webpack/loaders/next-client-pages-loader.js?page=%2Fapp&absolutePagePath=C%3A%5CUsers%5CGustavo%5CDocuments%5CGitHub%5CMyDailyStatus%5Cpages%5Capp.js!./");
 
 
 /***/ }),
 
-/***/ "dll-reference dll_c2e10d183b950a67d9e7":
+/***/ "dll-reference dll_2adc2403d89adc16ead0":
 /*!*******************************************!*\
-  !*** external "dll_c2e10d183b950a67d9e7" ***!
+  !*** external "dll_2adc2403d89adc16ead0" ***!
   \*******************************************/
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-module.exports = dll_c2e10d183b950a67d9e7;
+module.exports = dll_2adc2403d89adc16ead0;
 
 /***/ })
 
-},[[2,"static/runtime/webpack.js"]]]);
+},[[6,"static/runtime/webpack.js"]]]);
 //# sourceMappingURL=app.js.map

@@ -88,7 +88,7 @@ module.exports =
 /******/
 /******/
 /******/ 	// Load entry module and return exports
-/******/ 	return __webpack_require__(__webpack_require__.s = 6);
+/******/ 	return __webpack_require__(__webpack_require__.s = 10);
 /******/ })
 /************************************************************************/
 /******/ ({
@@ -100,7 +100,7 @@ module.exports =
 /*! exports provided: type, project_id, private_key_id, private_key, client_email, client_id, auth_uri, token_uri, auth_provider_x509_cert_url, client_x509_cert_url, default */
 /***/ (function(module) {
 
-module.exports = JSON.parse("{\"type\":\"service_account\",\"project_id\":\"my-dailystatus\",\"private_key_id\":\"1d80b9a457a21d6757138747a8881c0148c7e6d7\",\"private_key\":\"-----BEGIN PRIVATE KEY-----\\nMIIEvQIBADANBgkqhkiG9w0BAQEFAASCBKcwggSjAgEAAoIBAQCQXI93/+Vbz218\\nprKdZ9um9vz+h6UcscwduPYSNffLd9MAExP3ULHv3CklnwrABbPpthOSqrL2hZb8\\ng4rdhAUgQE8OhmnGMn0bx7lcqi1lDrDCZWMUrZTCvZfs7C+doFS5byAXaKL8PTX4\\nAaz0+HwQA2sP9vBpwgYCuNpkqgXom+ZOdBF18dG1lnq+FFKfn5XdPhAmnhTeYKQa\\nuQQyuGjzftjn+4xfaHhJrLmVnnnjOOI1dZv1vEaXMF4FdMzNZsWKPHIyxzxTcKKx\\n8kVgPJy2YeOWGvh9HSBj+sGwnPoY01NFh0pxjwE0xLacVrLiNZiIgdyFJ0Qfebnp\\nMvrJbZQ1AgMBAAECggEAAvHTmCY6gdqDtTZnqX/kCLSiot58puhjIK56w0Xuimvx\\nr3kajMGzBd1+/JF3h3f8teVM4oHKdlTYDsm86P/RMVmedmfJFVqtfdLF6Sn5FKw6\\ncGMSpLbvTeABwiEFmtJMzoUbXN7f7dBunvxwKevXomWV2kfpmrHZq+++JK3pj1d2\\n5BpgkCdwuSrGT87WJ3Q3MLeG0sjLfCS/SdEsrwa42Md7W2fekj6Tf8H+DnFTDHki\\nvCud4657xU7RP15eaL4oEs0tWz7ufGrs1Zt4Z67uVgHEDYiylctsH+3nc5hc5WGq\\nyR2hVOTLbjuJyNkINrD/ZvxlBpAHzMn5ZUSY7AsAAQKBgQDLqylphRWK/FEdBx+Z\\nDXygNuAeA1Cz1Vlo6cPUZCQkzAVHciV0vy4/uOCx50P1LaDBEQsVHGgVALQIfza6\\n76Y0MmAv5ooc7QbUM+8yMpOiNvU5K9V3HjvffZbp6RQM/9dGmYP/LZas5hA7H1hd\\nFZqh9ah4zvTvdgeqVT8ny3dAAQKBgQC1dFJ+tFha1HvaO4/ZTfe1vUlaBpLN72Yr\\n/ijL4YlpyLu5qLG2F1oPNrw1jumhKsIa6tJPN8hs6rXofFuaif7q75jR64Nqvyc7\\nAqBVhggJVPfWhKG1v3jcrVEeHkhVjbFohQUflEzVpIrO6MSHLuHNDyJ26I0IhFZf\\nY0/wSL1UNQKBgQCwVVe8cSnutHfx3un/lEqzV++AbLRhjrUjfUk8SRt19GIZsn01\\ncBS1vPZlcOpIiyGkJoJm27pNfNdih+m1vakzhe37aulnE9yWuwQ8fMePaW+0+PuP\\nb1C9NboEePUQMC2NhXpf43OR7HpfBct2hC7mTI95UQ2FibYnRjkw1htAAQKBgANq\\np0r/dlJvgc2AJZs/3pQrdkAds5HxGglmBbqhCodVYkOCq6X0FpwGudCAWmHQfksn\\ndMJNGJcEbFxuSwND6erejBAX0SenZcO0rvQtS+VxFiGR6cGUU2BEWyyoAVCrFFYV\\nex03G6NCL+LpexnYhiPoTwvSISWx6DZvlke99uKpAoGAdrKuzXNNILRoUMNkdGRe\\nmW7adCVr0pJMwA64qt7D6LuMpndLUNTLhpbQkgYc9qjUhxhLYo00i8EfJb/eo9un\\nXb5X4nG4vSx11bi+QF9oED3mhQ+G7/CemrK5QIotBd2SRwOwiztJ2U8qAJqjqh/R\\nkga4SGSPcw/cr81/pDPId0s=\\n-----END PRIVATE KEY-----\\n\",\"client_email\":\"firebase-adminsdk-tas2e@my-dailystatus.iam.gserviceaccount.com\",\"client_id\":\"118293257014579812613\",\"auth_uri\":\"https://accounts.google.com/o/oauth2/auth\",\"token_uri\":\"https://oauth2.googleapis.com/token\",\"auth_provider_x509_cert_url\":\"https://www.googleapis.com/oauth2/v1/certs\",\"client_x509_cert_url\":\"https://www.googleapis.com/robot/v1/metadata/x509/firebase-adminsdk-tas2e%40my-dailystatus.iam.gserviceaccount.com\"}");
+module.exports = JSON.parse("{\"type\":\"service_account\",\"project_id\":\"my-dailystatus\",\"private_key_id\":\"715b0e0424f90f720a7cc82d67fd427518ecbcf9\",\"private_key\":\"-----BEGIN PRIVATE KEY-----\\nMIIEvAIBADANBgkqhkiG9w0BAQEFAASCBKYwggSiAgEAAoIBAQDEjn3kN9XaOCSK\\nxGPAvy0GsB0jR4KRopNnHvEcfaOils8fGgQ5aB/8CpXa8pp1aR207aJsnS3l//81\\nrthusWI8L2J7QV6oLxiI6qRpaTQBk//Fn1WsRL1Zrnwer0JXfbxwuFGxuGFLtgps\\nBALeDIAr63GG8WO5+NqcChWJUO/EgS0LKGuZNoBZYQBbCt2UL0IDneR5LtJbWW9L\\nwVFiWVr9/dZHhSwZpAgAekEsKlWDCNjy9gXu4W1rTjYLA4Bw32SXj179qEH2J8gQ\\nme2EUEHkrEGgSCEJC9vI+Yq+SYDjQjQVHEa0LJRy5kHYBiVl0rjBiVGZ9NczR08l\\nLF9Fvp/HAgMBAAECggEALFK/g8etgzR21Q39OplBs4jiQTLeeC3TlITvNRAF5uOg\\nGDDbNADNeZ3/deyQNRq7lrGhl2GIWJ22NKpVZvy8HLtIt2ehy0Y3f6R958FP920i\\n17Ma9CpaEo+csKSvzp/tbvO5hFyCIDsQNZRf+yeRfZXtt1LWvLinv1ksyxbDwqlD\\nHZ2J3Dh45hX2NKApGXwpniVv0YYOaqDYLXkr5F74J3K+lNi2dt5YFTo8pXxwY4aw\\nGIepBVUpJq1meaXG1JAIxXvZsmxe1247jY98FGIcSDO2rYdBTHdgc3g55ibCWbSA\\nlHuU+L/my2QEch6DbCXNY1uktsvjqNieHgbCN4wsyQKBgQDuhmImOsMtjj++/kyJ\\nacC+vBA3ziK0VqwX2FrV0OpqFSI+IaqozBtHH3z/u+vZeJN4Y6osJB/XVkkQCWrv\\niuER1dQZIa/nfa4L+B1afxouDeqect5VKZnqKjREpsa/dakEIecp5in30l+XB/b1\\nIGXtlpVZ5Dd2HLTenPX6UrXu2QKBgQDS9Ppi0kEIw9J+Y0a/d5t9IiLN3gnFZuq8\\nW3aag5GyuTApfYseYXv81KZwCDH62bzdaFnYrvn61RT+8XkZotP0lTgn8oFndQ2V\\nDe2MiQ7QMqthUC48cGNDtJFei2vYujoSybVt7/kcFKaCPby5aQtzDecWTWwPSZT1\\n69PTR4sfnwKBgGG1/TkJ83CTCDwWcoYMI2A/LCmgMQlNRBxUjglvFsg0Nh3brsyN\\nKFN/a7ZbZidlRIwZz9lbRwvwleeS5BKTAtZKkSNmcGfVTVor3uJ2lOPu4YDdL4UV\\nkK6jcVv6Mgq2iXFe7hJ07hZOQMhfA+Swy/CDMlVrruico99Zz04nWc4pAoGAdK6N\\no4U59XgigEe3BQZKGY99ArNSYj5HjcFlO5eUSe+GRRysizROWQzhtkvCIUa34Rrr\\nvx8hI20ifNThL53RcJHsiqPmkWu8BHq8rqPMbrnn8x5fRIzBStygH1QsZaazolqx\\nIErAVZjSdG1jaoZAj/XboIlYQKhpXRCAjHcg628CgYB198DSTI66X+AaKSz3k/re\\nheHjxIDyOug2nSo8bktN4tys4fr2bdz0b4owP/m9bdtnoXTgV/+MS+LJ8G4NLyYb\\nSVWW8x4dSxv7rpQP22ej3epvxGD0owWI2hyqE3ZuzmoTgWSJka2TDwDo4Oz4Uk4z\\nnFVQK6dpUsv65eDjd/I1Qg==\\n-----END PRIVATE KEY-----\\n\",\"client_email\":\"my-dailystatus@appspot.gserviceaccount.com\",\"client_id\":\"112710729077201227091\",\"auth_uri\":\"https://accounts.google.com/o/oauth2/auth\",\"token_uri\":\"https://oauth2.googleapis.com/token\",\"auth_provider_x509_cert_url\":\"https://www.googleapis.com/oauth2/v1/certs\",\"client_x509_cert_url\":\"https://www.googleapis.com/robot/v1/metadata/x509/my-dailystatus%40appspot.gserviceaccount.com\"}");
 
 /***/ }),
 
@@ -207,7 +207,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _lib_db__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../lib/db */ "./lib/db.js");
 /* harmony import */ var _lib_db__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(_lib_db__WEBPACK_IMPORTED_MODULE_3__);
 /* harmony import */ var _lib_geo__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ../lib/geo */ "./lib/geo.js");
-var _jsxFileName = "C:\\MyDailyStatus\\pages\\app.js";
+var _jsxFileName = "C:\\Users\\Gustavo\\Documents\\GitHub\\MyDailyStatus\\pages\\app.js";
 var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
 
 
@@ -355,14 +355,14 @@ async function getServerSideProps({
 
 /***/ }),
 
-/***/ 6:
+/***/ 10:
 /*!****************************!*\
   !*** multi ./pages/app.js ***!
   \****************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__(/*! C:\MyDailyStatus\pages\app.js */"./pages/app.js");
+module.exports = __webpack_require__(/*! C:\Users\Gustavo\Documents\GitHub\MyDailyStatus\pages\app.js */"./pages/app.js");
 
 
 /***/ }),
