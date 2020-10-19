@@ -1,8 +1,8 @@
 import React,{useEffect} from 'react'
 import auth0 from '../lib/auth0';
 import router from 'next/router';
-import {db} from '../lib/db';
-import {distance} from '../lib/geo';
+import {checkExists,findChecksNearbyCheckin} from '../model/markers'
+
 
 const App =  (props) => {
     useEffect( () => {
@@ -48,80 +48,34 @@ export default App;
 
 
 export async function getServerSideProps({req,res}){
+    let user = {}
+    let isAuth = false
+    let forceCreate = false
+    let checkins = []
+    
     const session =  await auth0.getSession(req)
     
-if(session) {
-        const today = new Date();
-        const currentDate = 
-        today.getFullYear() + '-' + today.getMonth() + '-' + today.getDate();
-        const todaysCheckin = await db
-        .collection('markers')
-        .doc(currentDate)
-        .collection('checks')
-        .doc(session.user.sub)
-        .get()
-
-        const todaysData = todaysCheckin.data();
-        let forceCreate = true;
+    if(session) {
+        isAuth = true
+        user = session.user
+    
+        const todaysData = await checkExists(session.user.sub)
         
-        if(todaysData){
-            //pode ver os outros checkins
-            forceCreate = false;
-            const checkins = await db.collection('markers')
-            .doc(currentDate)
-            .collection('checks')
-            .near({
-                center:todaysData.coordinates,
-                radius: 1000
-            }).get();
-
-            const checkinsList = []
-            
-            checkins.docs.forEach(doc => {
-                checkinsList.push({
-                    id: doc.id,
-                    status: doc.data().status,
-                    coords:{
-                        lat:doc.data().coordinates.latitude,
-                        long:doc.data().coordinates.longitude
-                    },
-                    distance: distance(
-                        todaysData.coordinates.latitude, //38.892060,
-                        todaysData.coordinates.longitude,  //-77.019910,
-                        doc.data().coordinates.latitude,
-                        doc.data().coordinates.longitude
-                        ).toFixed(2)
-                })
-            })
-        
-            return {
-                props: {
-                    isAuth: true,
-                    user: session.user,
-                    forceCreate: false,
-                    checkins:checkinsList
-                }
-            }
-        
-        
-        }
-
+        if(!todaysData){
+            forceCreate = true
+        }else{
+            checkins = await findChecksNearbyCheckin(todaysData)
+        }       
+    }
     return {
         props:{
-            isAuth: true,
-            user: session.user,
-            forceCreate
+            isAuth,
+            user,
+            forceCreate,
+            checkins
         }
     }
     
 };
 
-    return {
-        props: {
-            isAuth: false,
-            user: {}
-        }
-    };
 
-
-};  

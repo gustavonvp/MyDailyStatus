@@ -1,9 +1,12 @@
 import React, { useState } from 'react'
 import auth0 from '../lib/auth0';
-import Axios from 'axios';
+import axios from 'axios';
+import router from 'next/router'
+import {useAuth} from '../lib/AuthContext'
+
 
 const CreateStatus = () => {
-    
+    const auth = useAuth()
     const [dados,setDados] = useState({
         status: 'bem',
         coords: {
@@ -11,6 +14,11 @@ const CreateStatus = () => {
             long: null
         }
     })
+
+    if(auth.isAuthReady && !auth.isAuth){
+        router.push('/')
+    }
+
     const getMyLocation = () =>{
         if(navigator.geolocation){
             navigator.geolocation.getCurrentPosition(position => {
@@ -38,7 +46,7 @@ const CreateStatus = () => {
     }
 
     const save = async () =>{
-        await Axios.post('/api/save-status',dados);
+        await axios.post('/api/save-status',dados);
     }
     return (
     <div>
@@ -46,15 +54,15 @@ const CreateStatus = () => {
         <h1>Crie seu Status</h1>
 
         <label className="block">
-            <input type="radio" name="status" value="bem" onClick={onStatusChange} /> Estou bem e sem sintomas.
+            <input type="radio" name="status" value="bem" onClick={onStatusChange} />{' '} Estou bem e sem sintomas.
         </label>
         
         <label className="block">
-            <input type="radio" name="status" value="gripe"  onClick={onStatusChange} /> Estou com sintomas de gripe / resfriado.
+            <input type="radio" name="status" value="gripe"  onClick={onStatusChange} /> {' '} Estou com sintomas de gripe / resfriado.
         </label>
         
         <label className="block">
-            <input type="radio" name="status" value="covid"  onClick={onStatusChange} /> Estou com sintomas da COVID.
+            <input type="radio" name="status" value="covid"  onClick={onStatusChange} /> {' '} Estou com sintomas da COVID.
         </label>
         
         Seu status e posição atual: <br></br> {JSON.stringify(dados)}
