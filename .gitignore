@@ -1,7 +1,7 @@
-node_modules
-next
-now
+.now
 .env
+now.json
 firebase-secret.json
-yarn.lock
-package-lock.json
+.next
+.now
+node_modules
