@@ -1,0 +1,64 @@
+.covid-infos {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    grid-gap: 15px;
+  }
+  
+  .covid-info-item {
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .covid-info-item p {
+    font-size: 42px;
+    font-weight: 500;
+  }
+  
+  .covid-info-item span {
+    font-size: 18px;
+  }
+  
+  @media (max-width: 768px) {
+    .covid-infos {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+    }
+  
+    .covid-info-item {
+      margin-bottom: 20px;
+  
+    }
+    
+  }
+
+
+  .section-content {
+    color: #333; 
+    width: 100%;  
+    max-width: 980px;
+    margin: 0 auto;
+    padding: 10px 30px;
+  }
+  
+  .section-title {
+    font-size: 28px;
+    color: #333;
+    font-weight: 600;
+    text-transform: uppercase;
+    margin-bottom: 12px;
+    line-height: 38px;
+    text-align: center;
+  }
+  
+  .section-dark {
+    background-color: rgba(51,0,51,0.8);
+    color: #fff;
+  }
+  
+  .section-dark .section-title {
+    color: #fff;
+  } 
